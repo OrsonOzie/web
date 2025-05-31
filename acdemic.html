@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <!--favcon-->
+    <link rel="shortcut icon" href="1748694255520.jpg" type="image/x-icon">
+    <style>
+        body {
+            background-color:white;
+            margin: 0;
+            padding: 0;
+        }
+        .ronnie {
+            width: 200px;
+            height: 100px;
+            display: flex;
+            text-align: center;
+            margin-left: 500px;
+            border-radius: 45%;
+        }
+              .navbar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-attachment: blue;
+            z-index: 1000;
+        }
+        .navbar {
+            background-color:red;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .navbar .icon {
+            display: none;
+        }
+        @media screen and (max-width: 600px) {
+            .navbar a {display: none;}
+            .navbar a.icon {
+                float: right;
+                display: block;
+            }
+            .navbar.responsive {position: relative;}
+            .navbar.responsive a {
+                display: block;
+                float: none;
+                text-align: left;
+            }
+
+        }
+        .logo {
+            text-align: center;
+            margin-top: 50px;
+            border-radius: 25%;
+        }
+     
+           .logo {
+            text-align: center;
+            margin-top: 50px;
+            border-radius: 25%;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+        .card h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #555;
+            line-height: 1.5;
+        }
+        .card button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .card button:hover {
+            background: #45a049;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <!--this is the header seaction-->
+    <header>
+      
+        <div class="navbar" id="myNavbar">
+    <a href="home.html">Home</a>
+    <a href="acdemic.html">academic</a>
+    <a href="admission.html">admission</a>
+    <a href="contact.html">Contact</a>
+</div>
+<div class="logo">
+   <img src="1748694255520.jpg" alt="image" width="200px" height="auto">
+   </div>
+   <div class="mm">
+   <img src="IMG-20250531-WA0038.jpg" alt="image" width="100%" height="auto" style="border-radius: 16px;">
+
+   </div>
+   <div class="card">
+   <img src="IMG-20250531-WA0045.jpg" alt="img" width="250px" height="auto">
+        <h2>DEPARTMENT</h2>
+        <p>Discover biology,Chemistry and physics through hands-on experiments and engaging projects 
+            that foster curiosity and critical thinking
+        </p>
+        <button>Learn More</button>
+    </div>
+
+    <div class="card">
+          <img src="IMG-20250531-WA0040.jpg" alt="img" width="500px" height="250px" style="border-radius: 16px;">
+    <h1 >SCSHOOL CURRICULUM</h1>
+    <h2>Curriculum overview</h2>
+    <p>Engaging education for future skills.
+        we offer both arts and secince 
+    </p>
+    <h2>learning objectives</h2>
+    <p>critical thinking ,collaboration, creativity, communcation.</p>
+    <h2>Philosophy</h2>
+    <p>student-centered , holistic development</p>
+        <button>Discover</button>
+    </div>
+    <div class="card">
+          <img src="img/IMG-20250531-WA0042.jpg" alt="playing" width="500px" height="auto">
+        <h2>CO-CURRICULUM ACTIVITIES</h2>
+        <p> Our co-curricular programs enhance student learning and development 
+    outside the classroom,.We offer a veriety of club ,sports and community service opportunities
+    encouraging growth. Join us to explore your interests and build lifelong skills!</p>
+        <button>Read More</button>
+    </div>
+</div>
+
+</body>
+</html>
